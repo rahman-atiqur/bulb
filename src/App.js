@@ -22,6 +22,10 @@ import "./App.css";
   // const bulbClass = on ?'bulb on' : 'bulb off';    
   return <div className={on ?'bulb on' : 'bulb off'}></div>  //4th way
 } */
+/* const Bulb = ({on}) => {
+  // const bulbClass = on ?'bulb on' : 'bulb off';    
+  return <div className={on ?'bulb on' : 'bulb off'}></div>  //4th way
+} */
 
 const Bulb = ({ on }) => <div className={on ? "bulb on" : "bulb off"}></div>; //5th way
 
