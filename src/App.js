@@ -34,52 +34,52 @@ const Bulb = ({ on }) => <div className={on ? "bulb on" : "bulb off"}></div>; //
 //----------------Assignment 2(b) : Product Info----------------
 //----------------Assignment 2(b) : Product Info----------------
 
-function ProductInfo({ image, title, description, price }) {
-    // const { image, title, description, price } = props;
-    return (
-        <div className="productList">
-            <div className="image">{image}</div>
-            <div className="title">{title}</div>
-            <div className="desc">{description}</div>
-            <div className="price">{price}</div>
-        </div>
-    );
-}
+// function ProductInfo({ image, title, description, price }) {
+//     // const { image, title, description, price } = props;
+//     return (
+//         <div className="productList">
+//             <div className="image">{image}</div>
+//             <div className="title">{title}</div>
+//             <div className="desc">{description}</div>
+//             <div className="price">{price}</div>
+//         </div>
+//     );
+// }
 
-function App() {
-    return (
-        <div className="App">
-            <h1>a. Assignment : Bulb</h1>
-            <Bulb on />
-            <Bulb />
+// function App() {
+//     return (
+//         <div className="App">
+//             <h1>a. Assignment : Bulb</h1>
+//             <Bulb on />
+//             <Bulb />
 
-            <br></br>
-            <br></br>
-            <br></br>
-            <h1>b. Assignment : Product info</h1>
-            <h3>Result : Shoes</h3>
+//             <br></br>
+//             <br></br>
+//             <br></br>
+//             <h1>b. Assignment : Product info</h1>
+//             <h3>Result : Shoes</h3>
 
-            <ProductInfo
-                image="shoe1.jpg"
-                title="adidas"
-                description="Mens Grand Court Tennis"
-                price="$85.00"
-            />
-            <ProductInfo
-                image="shoe2.jpg"
-                title="Reebok"
-                description="Mens Grand Court Tennis"
-                price="$109.00"
-            />
-            <ProductInfo
-                image="shoe3.jpg"
-                title="PUMA"
-                description="Mens Grand Court Tennis"
-                price="$66.00"
-            />
-        </div>
-    );
-}
+//             <ProductInfo
+//                 image="shoe1.jpg"
+//                 title="adidas"
+//                 description="Mens Grand Court Tennis"
+//                 price="$85.00"
+//             />
+//             <ProductInfo
+//                 image="shoe2.jpg"
+//                 title="Reebok"
+//                 description="Mens Grand Court Tennis"
+//                 price="$109.00"
+//             />
+//             <ProductInfo
+//                 image="shoe3.jpg"
+//                 title="PUMA"
+//                 description="Mens Grand Court Tennis"
+//                 price="$66.00"
+//             />
+//         </div>
+//     );
+// }
 
 export default App;
 
